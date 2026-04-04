@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p .tmp tools workflows)",
+      "Bash(touch .env)",
+      "WebFetch(domain:docs.perplexity.ai)",
+      "WebFetch(domain:nanobananaapi.ai)"
+    ]
+  }
+}
