@@ -1,0 +1,33 @@
+{
+  "title": "The AI Job Revolution: Why Millions of Jobs May Vanish in the Next Decade",
+  "summary": "Artificial intelligence is no longer a distant future concern \u2014 it is actively reshaping the global labor market right now. Goldman Sachs estimates that 300 million jobs worldwide are exposed to AI-driven automation, while Forrester predicts 10.4 million US jobs will be lost by 2030. Entry-level white-collar workers are being hit first and hardest, with unemployment among 20- to 30-year-olds in tech-exposed occupations rising by nearly 3 percentage points since early 2025.\n\nThe scale of disruption is unprecedented. Unlike previous waves of automation that displaced factory and trade workers, AI is coming for white-collar professionals \u2014 programmers, accountants, legal assistants, and customer service representatives. PwC estimates that by the mid-2030s, up to 30% of all jobs could be automatable. Anthropic's own research warns of a potential 'Great Recession for white-collar workers,' with some experts predicting US unemployment could spike to 10-20% if AI adoption accelerates faster than new job creation.\n\nYet the picture isn't entirely bleak. The World Economic Forum projects 170 million new roles will emerge by 2030 against 92 million displaced \u2014 a net gain of 78 million jobs. The challenge is that the workers losing jobs are often not the same people filling the new ones. Over 40% of workers will require significant reskilling, and the transition will not be smooth or painless for everyone.",
+  "key_points": [
+    "300 million jobs globally are exposed to AI automation according to Goldman Sachs \u2014 the largest workforce disruption since the Industrial Revolution",
+    "White-collar workers are on the front lines: programmers, accountants, legal assistants, customer service reps, and data entry clerks face the highest displacement risk",
+    "Women bear a disproportionate burden \u2014 86% of the most vulnerable workers are women, concentrated in administrative and clerical roles",
+    "Entry-level workers are already feeling the impact: youth unemployment in tech-exposed occupations has risen 3 percentage points since early 2025",
+    "The job creation vs. destruction gap: WEF projects 170 million new roles by 2030 but 92 million displaced, leaving a painful transition period",
+    "By the mid-2030s, up to 30% of all jobs could be automatable according to PwC \u2014 we are only at the beginning of this wave",
+    "Over 40% of workers will need significant reskilling by 2030, but current training programs are not keeping pace with the speed of AI advancement"
+  ],
+  "stats": [
+    "300 million jobs globally exposed to AI automation (Goldman Sachs)",
+    "10.4 million US jobs predicted to be lost by 2030 (Forrester)",
+    "170 million new roles vs. 92 million displaced by 2030 (World Economic Forum)",
+    "30% of all jobs could be automatable by mid-2030s (PwC)",
+    "86% of most vulnerable workers are women (Washington Post)",
+    "89% of HR leaders expect AI to reshape jobs in 2026 (CNBC)",
+    "80% automation rate for customer service roles (industry estimates)",
+    "40%+ of workers will require significant reskilling by 2030 (WEF)"
+  ],
+  "sources": [
+    "https://www.goldmansachs.com/insights/articles/how-will-ai-affect-the-global-workforce",
+    "https://www.pwc.com/gx/en/services/ai/ai-jobs-barometer.html",
+    "https://www.forrester.com/blogs/ai-and-automation-will-take-6-of-us-jobs-by-2030/",
+    "https://fortune.com/2026/03/06/ai-job-losses-report-anthropic-research-great-recession-for-white-collar-workers/",
+    "https://www.cnbc.com/2025/11/14/ai-to-impact-89percent-of-jobs-next-year-cnbc-survey-finds.html",
+    "https://www.weforum.org/stories/2026/01/how-ai-will-affect-work-in-different-industries/",
+    "https://www.anthropic.com/research/labor-market-impacts",
+    "https://www.washingtonpost.com/technology/interactive/2026/jobs-most-affected-ai-automation/"
+  ]
+}

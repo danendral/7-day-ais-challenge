@@ -21,7 +21,7 @@ Take a topic from the user, research it, generate visual content, format as HTML
      ```json
      {
        "title": "Catchy newsletter title",
-       "summary": "2-3 paragraph overview",
+       "summary": "2-3 sentence hook (keep short to prevent reader churn — move detail into key_points)",
        "key_points": ["point 1", "point 2", ...],
        "stats": ["stat 1", "stat 2", ...],
        "sources": ["url1", "url2", ...]
@@ -44,6 +44,7 @@ Take a topic from the user, research it, generate visual content, format as HTML
 - **Input**: Research data + optional infographic base64
 - **Output**: Responsive HTML email at `.tmp/newsletter.html`
 - **Note**: Uses inline CSS for email client compatibility. Infographic is base64-embedded.
+- **Content guideline**: The summary (before the infographic) should be kept to 2-3 sentences max (~30-50% of the full research summary). Move detailed findings, stats context, and nuance into the Key Takeaways section below the infographic. This prevents reader churn from long opening text.
 
 ### Step 4: Send via Gmail
 - **Method**: Gmail MCP tool (built into Claude Code)
@@ -76,6 +77,26 @@ Requires `OPENROUTER_API_KEY` in `.env`.
 6. Authenticate Gmail MCP if needed
 7. Send the email to all recipients
 8. Confirm success to user
+
+### Step 5: Archive the Newsletter
+- **Purpose**: Maintain a historical record of all sent newsletters
+- **Process**:
+  1. Create a timestamped folder under `newsletter_history/` named `YYYY-MM-DD_short-topic-slug/`
+  2. Copy into it:
+     - `newsletter.html` — the final HTML email
+     - `infographic.png` — the generated infographic image
+     - `newsletter_data.json` — the research data
+  3. Append an entry to `newsletter_history/log.csv` with columns: `date, title, recipients, slug`
+  4. If `log.csv` doesn't exist yet, create it with a header row first
+- **Example**:
+  ```
+  newsletter_history/
+    log.csv
+    2026-04-05_ai-job-revolution/
+      newsletter.html
+      infographic.png
+      newsletter_data.json
+  ```
 
 ## Known Constraints
 - Nano Banana API requires a callback URL (we pass a dummy and poll instead)
