@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:danendral.github.io)",
+      "WebFetch(domain:docs.firecrawl.dev)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:www.upwork.com)",
+      "mcp__firecrawl__firecrawl_scrape"
+    ]
+  }
+}
