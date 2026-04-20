@@ -1,0 +1,154 @@
+{
+  "slides": [
+    {
+      "type": "title",
+      "title": "E-Commerce Sales Performance 2023",
+      "subtitle": "1,337 Orders · $9.31M Total Revenue",
+      "date": "Full Year 2023"
+    },
+    {
+      "type": "content",
+      "title": "Business Overview",
+      "metrics": [
+        {
+          "label": "Total Revenue",
+          "value": "$9.31M"
+        },
+        {
+          "label": "Total Orders",
+          "value": "1,337"
+        },
+        {
+          "label": "Units Sold",
+          "value": "13,853"
+        },
+        {
+          "label": "Return Rate",
+          "value": "5.85%"
+        },
+        {
+          "label": "Avg Rating",
+          "value": "3.03 / 5"
+        },
+        {
+          "label": "Peak Month",
+          "value": "Aug 2023",
+          "delta": { "direction": "up", "value": "$942K" }
+        }
+      ],
+      "bullets": [
+        "Aug–Sep 2023 drove $1.84M (19.8% of annual revenue) — strongest stretch of the year",
+        "Feb 2023 was the weakest month at $651K — 31% below the August peak",
+        "Churned customers represent 26.5% of revenue ($2.47M) — highest of any segment, signaling retention risk"
+      ]
+    },
+    {
+      "type": "chart",
+      "title": "Monthly Revenue Trend",
+      "charts": [
+        {
+          "type": "line",
+          "title": "Revenue by Month ($)",
+          "categories": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+          "series": [
+            {
+              "name": "Revenue",
+              "values": [770971, 650847, 880377, 691771, 676208, 682304, 715697, 942154, 899960, 686775, 845443, 867440]
+            }
+          ]
+        }
+      ],
+      "notes": "Revenue peaked in Aug ($942K) and dipped in Feb ($651K). Q4 recovery strong with Nov–Dec averaging $856K."
+    },
+    {
+      "type": "chart",
+      "title": "Revenue Breakdown",
+      "charts": [
+        {
+          "type": "bar",
+          "title": "Revenue by Category ($)",
+          "categories": ["Clothing", "Books", "Sports", "Home & Garden", "Toys", "Beauty", "Electronics", "Automotive"],
+          "series": [
+            {
+              "name": "Revenue",
+              "values": [1314771, 1240825, 1196914, 1153839, 1137737, 1134584, 1076209, 1055068]
+            }
+          ]
+        },
+        {
+          "type": "bar",
+          "title": "Revenue by Region ($)",
+          "categories": ["North America", "Latin America", "Europe", "Middle East", "Asia Pacific"],
+          "series": [
+            {
+              "name": "Revenue",
+              "values": [2080458, 2078712, 1887268, 1658966, 1604542]
+            }
+          ]
+        }
+      ],
+      "notes": "Categories are evenly distributed (11–14% each). North America and Latin America are near-tied at ~22% each."
+    },
+    {
+      "type": "chart",
+      "title": "Sales Channels & Customer Segments",
+      "charts": [
+        {
+          "type": "bar",
+          "title": "Revenue by Sales Channel ($)",
+          "categories": ["Marketplace", "Mobile App", "In-Store", "Online"],
+          "series": [
+            {
+              "name": "Revenue",
+              "values": [2586429, 2326085, 2205003, 2192429]
+            }
+          ]
+        },
+        {
+          "type": "bar",
+          "title": "Revenue by Customer Segment ($)",
+          "categories": ["Churned", "Returning", "Premium", "New"],
+          "series": [
+            {
+              "name": "Revenue",
+              "values": [2468656, 2394179, 2298787, 2148325]
+            }
+          ]
+        }
+      ],
+      "notes": "Marketplace leads channels at 27.8%. Churned segment at 26.5% is the largest — a key retention opportunity."
+    },
+    {
+      "type": "content",
+      "title": "Top Products & Payment Trends",
+      "metrics": [
+        { "label": "#1 Product", "value": "Sneakers", "delta": { "direction": "up", "value": "$322K" } },
+        { "label": "#2 Product", "value": "LEGO Set", "delta": { "direction": "up", "value": "$306K" } },
+        { "label": "#3 Product", "value": "Cookbook", "delta": { "direction": "up", "value": "$303K" } }
+      ],
+      "bullets": [
+        "Top 3 products (Sneakers, LEGO Set, Cookbook) account for $930K — 10% of total revenue",
+        "Crypto is the #1 payment method at 23.1% ($2.15M), followed closely by Credit Card (21.7%)",
+        "Buy Now Pay Later is the smallest share at 15.9% ($1.48M) — room to grow with flexible payment adoption"
+      ],
+      "right_notes": "Payment Mix:\nCrypto 23.1%\nCredit Card 21.7%\nBank Transfer 20.9%\nPayPal 18.5%\nBNPL 15.9%"
+    },
+    {
+      "type": "summary",
+      "title": "Key Takeaways & Next Steps",
+      "takeaways": [
+        "Revenue is well-diversified across all 8 categories (11–14% each) — no single category dependency",
+        "North America and Latin America are the top two regions, contributing 44.6% of revenue combined",
+        "Churned customers are the largest segment at 26.5% — retention programs could recover significant revenue",
+        "Aug–Sep peak ($1.84M) and Q4 strong close ($1.71M) suggest seasonal demand patterns worth planning for",
+        "5.85% return rate and average rating of 3.03/5 indicate product quality and fulfillment improvements are needed"
+      ],
+      "next_steps": [
+        "Launch win-back campaigns targeting the Churned segment ($2.47M at risk)",
+        "Investigate low customer rating (3.03/5) — identify top complaint categories and address quality gaps",
+        "Expand Marketplace channel investment — already #1 at 27.8% and growing",
+        "Plan inventory and promotions ahead of Aug–Sep to maximize peak season revenue"
+      ]
+    }
+  ]
+}
