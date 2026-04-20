@@ -2,9 +2,9 @@
   "slides": [
     {
       "type": "title",
-      "title": "E-Commerce Sales Performance 2023",
+      "title": "E-Commerce Sales Performance 2025",
       "subtitle": "1,337 Orders · $9.31M Total Revenue",
-      "date": "Full Year 2023"
+      "date": "Full Year 2025"
     },
     {
       "type": "content",
@@ -32,13 +32,13 @@
         },
         {
           "label": "Peak Month",
-          "value": "Aug 2023",
+          "value": "Aug 2025",
           "delta": { "direction": "up", "value": "$942K" }
         }
       ],
       "bullets": [
-        "Aug–Sep 2023 drove $1.84M (19.8% of annual revenue) — strongest stretch of the year",
-        "Feb 2023 was the weakest month at $651K — 31% below the August peak",
+        "Aug–Sep 2025 drove $1.84M (19.8% of annual revenue) — strongest stretch of the year",
+        "Feb 2025 was the weakest month at $651K — 31% below the August peak",
         "Churned customers represent 26.5% of revenue ($2.47M) — highest of any segment, signaling retention risk"
       ]
     },
