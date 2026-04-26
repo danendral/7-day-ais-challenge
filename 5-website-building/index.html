@@ -441,6 +441,88 @@
     </div>
   </div>
 </section>
+<!-- CTA FORM -->
+<section id="demo-form" class="cta-bg grain relative py-24">
+  <div class="max-w-3xl mx-auto px-6 text-center">
+    <p class="text-dh-teal text-xs font-semibold uppercase tracking-widest mb-4">Get Started</p>
+    <h2 class="font-display text-white text-3xl md:text-5xl font-bold mb-4" style="letter-spacing:-0.03em;">Ready to Automate<br/>Your Business?</h2>
+    <p class="text-gray-300 text-base mb-8" style="line-height:1.7;">Book a free 30-minute demo and we'll show you exactly how the system works for your business.</p>
+    <div class="flex flex-wrap items-center justify-center gap-6 mb-10">
+      <span class="flex items-center gap-2 text-gray-300 text-sm"><span>🔒</span>Your data stays private</span>
+      <span class="flex items-center gap-2 text-gray-300 text-sm"><span>🇮🇩</span>Built for Indonesian businesses</span>
+      <span class="flex items-center gap-2 text-gray-300 text-sm"><span>⚡</span>Setup in days, not months</span>
+    </div>
+    <div id="form-card" class="bg-white rounded-2xl p-8 md:p-10 text-left" style="box-shadow:0 24px 64px rgba(0,0,0,0.25);">
+      <form id="demo-form-el" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="grid sm:grid-cols-2 gap-5 mb-5">
+          <div>
+            <label class="block text-xs font-semibold text-dh-navy mb-1.5 uppercase tracking-wide">Name</label>
+            <input type="text" name="name" required placeholder="Your full name" class="form-input" />
+          </div>
+          <div>
+            <label class="block text-xs font-semibold text-dh-navy mb-1.5 uppercase tracking-wide">Business Name</label>
+            <input type="text" name="business_name" required placeholder="Your business name" class="form-input" />
+          </div>
+          <div>
+            <label class="block text-xs font-semibold text-dh-navy mb-1.5 uppercase tracking-wide">WhatsApp Number</label>
+            <input type="tel" name="whatsapp" required placeholder="+62 8xx xxxx xxxx" class="form-input" />
+          </div>
+          <div>
+            <label class="block text-xs font-semibold text-dh-navy mb-1.5 uppercase tracking-wide">What are you looking for?</label>
+            <select name="intent" required class="form-input" style="background:white;">
+              <option value="" disabled selected>Select an option...</option>
+              <option value="customer-service">Customer Service Automation</option>
+              <option value="lead-conversion">Lead Conversion AI</option>
+              <option value="both">Both Systems</option>
+              <option value="not-sure">Not Sure Yet</option>
+            </select>
+          </div>
+          <div class="sm:col-span-2">
+            <label class="block text-xs font-semibold text-dh-navy mb-1.5 uppercase tracking-wide">Estimated messages / tickets per month</label>
+            <select name="volume" required class="form-input" style="background:white;">
+              <option value="" disabled selected>Select a range...</option>
+              <option value="under-500">Under 500</option>
+              <option value="500-2000">500 – 2,000</option>
+              <option value="2000-5000">2,000 – 5,000</option>
+              <option value="5000-plus">5,000+</option>
+            </select>
+          </div>
+        </div>
+        <div class="mb-6">
+          <label class="block text-xs font-semibold text-dh-navy mb-1.5 uppercase tracking-wide">Message (optional)</label>
+          <textarea name="message" rows="4" placeholder="Tell us about your business and current challenges..." class="form-input resize-none"></textarea>
+        </div>
+        <button type="submit" id="submit-btn" class="btn-primary w-full py-4 rounded-xl font-bold text-base">Book My Free Demo</button>
+      </form>
+    </div>
+    <div id="thank-you-card" class="hidden bg-white rounded-2xl p-10 text-center" style="box-shadow:0 24px 64px rgba(0,0,0,0.25);">
+      <div class="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-5" style="background:rgba(9,158,195,0.12);">
+        <svg class="w-8 h-8" fill="none" stroke="#099ec3" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+      </div>
+      <h3 class="font-display text-dh-navy text-2xl font-bold mb-2">We'll be in touch!</h3>
+      <p class="text-gray-500" style="line-height:1.7;">Thanks for reaching out. We'll contact you via WhatsApp within 24 hours to schedule your free demo.</p>
+    </div>
+  </div>
+</section>
+<!-- FOOTER -->
+<footer style="background:#1a1f3d;">
+  <div class="max-w-7xl mx-auto px-6 py-12">
+    <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-8 mb-8 pb-8" style="border-bottom:1px solid rgba(255,255,255,0.08);">
+      <div>
+        <img src="brand_assets/Datahack ID Logo.png" alt="Datahack Indonesia" class="h-10 w-auto mb-2" />
+        <p class="text-gray-400 text-sm">Intelligent automation for Indonesian SMEs</p>
+      </div>
+      <nav class="flex flex-wrap gap-6">
+        <a href="#solutions" class="text-gray-400 hover:text-dh-teal text-sm transition-colors duration-150">Solutions</a>
+        <a href="#how-it-works" class="text-gray-400 hover:text-dh-teal text-sm transition-colors duration-150">How It Works</a>
+        <a href="#results" class="text-gray-400 hover:text-dh-teal text-sm transition-colors duration-150">Results</a>
+        <a href="#demo-form" class="text-gray-400 hover:text-dh-teal text-sm transition-colors duration-150">Contact</a>
+      </nav>
+      <a href="mailto:datahackindonesia@gmail.com" class="text-gray-400 hover:text-dh-teal text-sm transition-colors duration-150 focus-visible:outline focus-visible:outline-2 focus-visible:outline-dh-teal rounded">datahackindonesia@gmail.com</a>
+    </div>
+    <p class="text-center text-gray-500 text-xs">© 2025 Datahack Indonesia. All rights reserved.</p>
+  </div>
+</footer>
   <script>
     const hamburger = document.getElementById('hamburger');
     const mobileMenu = document.getElementById('mobile-menu');
@@ -459,6 +541,38 @@
         hamClose.classList.add('hidden');
       });
     });
+
+  // Form submission
+  const formEl = document.getElementById('demo-form-el');
+  const submitBtn = document.getElementById('submit-btn');
+  const formCard = document.getElementById('form-card');
+  const thankYouCard = document.getElementById('thank-you-card');
+
+  if (formEl) {
+    formEl.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      submitBtn.textContent = 'Sending...';
+      submitBtn.disabled = true;
+
+      try {
+        const res = await fetch(formEl.action, {
+          method: 'POST',
+          body: new FormData(formEl),
+          headers: { 'Accept': 'application/json' }
+        });
+        if (res.ok) {
+          formCard.classList.add('hidden');
+          thankYouCard.classList.remove('hidden');
+        } else {
+          submitBtn.textContent = 'Something went wrong. Try again.';
+          submitBtn.disabled = false;
+        }
+      } catch {
+        submitBtn.textContent = 'Something went wrong. Try again.';
+        submitBtn.disabled = false;
+      }
+    });
+  }
   </script>
 </body>
 </html>
