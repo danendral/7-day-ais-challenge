@@ -136,6 +136,62 @@
   </style>
 </head>
 <body class="bg-white text-gray-800">
-  <!-- Sections go here -->
+  <!-- NAV -->
+<nav id="nav" class="fixed top-0 left-0 right-0 z-50" style="background: rgba(33,39,71,0.92); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(255,255,255,0.06);">
+  <div class="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
+    <!-- Logo -->
+    <a href="#" class="flex items-center gap-2 flex-shrink-0">
+      <img src="brand_assets/Datahack ID Logo.png" alt="Datahack Indonesia" class="h-9 w-auto" />
+    </a>
+
+    <!-- Desktop links -->
+    <div class="hidden md:flex items-center gap-8">
+      <a href="#solutions" class="nav-link text-sm font-medium">Solutions</a>
+      <a href="#how-it-works" class="nav-link text-sm font-medium">How It Works</a>
+      <a href="#results" class="nav-link text-sm font-medium">Results</a>
+      <a href="#demo-form" class="nav-link text-sm font-medium">Contact</a>
+    </div>
+
+    <!-- CTA + hamburger -->
+    <div class="flex items-center gap-4">
+      <a href="#demo-form" class="hidden md:inline-flex btn-primary text-sm font-semibold px-5 py-2.5 rounded-full">Book a Demo</a>
+      <button id="hamburger" class="md:hidden text-white p-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-dh-teal rounded" aria-label="Toggle menu">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path id="ham-open" stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+          <path id="ham-close" class="hidden" stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile menu -->
+  <div id="mobile-menu" class="md:hidden px-6 pb-4 flex flex-col gap-3">
+    <a href="#solutions" class="nav-link text-sm font-medium py-1">Solutions</a>
+    <a href="#how-it-works" class="nav-link text-sm font-medium py-1">How It Works</a>
+    <a href="#results" class="nav-link text-sm font-medium py-1">Results</a>
+    <a href="#demo-form" class="nav-link text-sm font-medium py-1">Contact</a>
+    <a href="#demo-form" class="btn-primary text-sm font-semibold px-5 py-2.5 rounded-full text-center mt-2">Book a Demo</a>
+  </div>
+</nav>
+<!-- Sections go here -->
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const hamOpen = document.getElementById('ham-open');
+    const hamClose = document.getElementById('ham-close');
+    hamburger.addEventListener('click', () => {
+      mobileMenu.classList.toggle('open');
+      hamOpen.classList.toggle('hidden');
+      hamClose.classList.toggle('hidden');
+    });
+    // Close on link click
+    mobileMenu.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        mobileMenu.classList.remove('open');
+        hamOpen.classList.remove('hidden');
+        hamClose.classList.add('hidden');
+      });
+    });
+  </script>
 </body>
 </html>
