@@ -1,4 +1,4 @@
-import { schedules } from "@trigger.dev/sdk/v3";
+import { task } from "@trigger.dev/sdk/v3";
 
 const AI_KEYWORDS = [
   "ai", "llm", "claude", "gpt", "gemini", "anthropic", "openai",
@@ -25,9 +25,8 @@ type Article = {
   source: string;
 };
 
-export const dailyAiDigest = schedules.task({
+export const dailyAiDigest = task({
   id: "daily-ai-digest",
-  cron: "0 0 * * *", // 00:00 UTC = 07:00 WIB
   retry: { maxAttempts: 2 },
 
   run: async () => {
